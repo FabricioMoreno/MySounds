@@ -22,7 +22,7 @@ img{
     justify-content: center;
     background-color: magenta;
 }
-.audio
+.audio-card
 {
     width: 300px;
     height: 200px;
@@ -32,11 +32,11 @@ img{
     text-align: center;
     border-radius: 25px;
 }
-.audio_title
+.audio-card_title
 {
     margin-top: 10px;
 }
-.audio_play-btn
+.audio-card_play-btn
 {
     width: 100px;
     height: 100px;

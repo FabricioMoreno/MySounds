@@ -13,18 +13,18 @@
             <h1>Sample Sound</h1>
             <img src="" alt="">
         </header>
-        <div class="list-of-audios">
-            <div class="audio">
-                <h2 class="audio_title">Vampire_howl_dl9rzx</h2>
-                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Vampire_howl_dl9rzx.wav" id="uno"></audio>
-                <button class="audio_play-btn" id="btnPlay">Play/Pause</button>
+        <div class="list-of-audios" id="listOfAudios">
+            <div class="audio-card">
+                <h2 class="audio-card_title">Vampire_howl_dl9rzx</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Vampire_howl_dl9rzx.wav" id="audio-one" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
             </div>
-            <div class="audio">
-                <h2 class="audio_title">Vampire_howl_dl9rzx</h2>
-                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Water_bubbling_oizksl.wav" id="uno"></audio>
-                <button class="audio_play-btn" id="btnPlay">Play/Pause</button>
+            <div class="audio-card">
+                <h2 class="audio-card_title">Water_bubbling_oizksl</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Water_bubbling_oizksl.wav" id="audio-two" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
             </div>
-            <div class="audio">
+            <div class="audiow">
                 <h2>Water_bubbling_oizksl</h2>
                 <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Water_bubbling_oizksl.wav" controls></audio>
                 <button>Play/Pause</button>
@@ -33,7 +33,8 @@
     </div>
 
     <!-- JS -->
-    <<!-- script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script> -->
-    <!-- <script type="module" src="./app.js"></script> -->
+    <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
+    <script  src="./js/app/app.js"></script>
+    <script src="./js/app/shortcuts-app.js"></script>
 </body>
 </html>
