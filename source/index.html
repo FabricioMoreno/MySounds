@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
-<!--     <script src="../node_modules/hotkeys-js/dist/hotkeys.min.js"></script>
- --></head>
 <body>
     <div class="my-page">
-        <header>
-            <h1>Sample Sound</h1>
-            <img src="" alt="">
+        <header class="header">
+            <h1 class="header_title">Sample Sound</h1>
         </header>
         <div class="list-of-audios" id="listOfAudios">
             <div class="audio-card">
@@ -24,15 +22,45 @@
                 <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Water_bubbling_oizksl.wav" id="audio-two" class="audio"></audio>
                 <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
             </div>
-            <div class="audiow">
-                <h2>Water_bubbling_oizksl</h2>
-                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Water_bubbling_oizksl.wav" controls></audio>
-                <button>Play/Pause</button>
+            <div class="audio-card">
+                <h2 class="audio-card_title">Machine_gun_onrbg0</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Machine_gun_onrbg0.wav" id="audio-three" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
+            </div>
+            <div class="audio-card">
+                <h2 class="audio-card_title">African_drums_1_bjafzj</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/African_drums_1_bjafzj.wav" id="audio-four" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
+            </div>
+            <div class="audio-card">
+                <h2 class="audio-card_title">Chinese_gong_2_qng8sm</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Chinese_gong_2_qng8sm.wav" id="audio-five" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
+            </div>
+            <div class="audio-card">
+                <h2 class="audio-card_title">Cartoon_sound_falling</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Cartoon_sound_effects_falling_p6pm90.wav" id="audio-six" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
+            </div>
+            <div class="audio-card">
+                <h2 class="audio-card_title">applause3_f9z0pn</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/applause3_f9z0pn.mp3" id="audio-seven" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
+            </div>
+            <div class="audio-card">
+                <h2 class="audio-card_title">Drumroll_drum</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Drumroll_drum_roll_drums_drum_xyjzd4.wav" id="audio-eight" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
+            </div>
+            <div class="audio-card">
+                <h2 class="audio-card_title">Cartoon_sound_bang</h2>
+                <audio src="https://res.cloudinary.com/doekxasxp/video/upload/v1597082933/sounds/Cartoon_sound_effects_bang_nsjiyb.wav" id="audio-nine" class="audio"></audio>
+                <button class="audio-card_play-btn" id="btnPlay" data-btn="play">Play/Pause</button>
             </div>
         </div>
     </div>
 
-    <!-- JS -->
+    <!----------------------JS ---------------------------->
     <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
     <script  src="./js/app/app.js"></script>
     <script src="./js/app/shortcuts-app.js"></script>
